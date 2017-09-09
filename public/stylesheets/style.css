@@ -1,8 +1,78 @@
+@font-face
+{
+  font-family: 'Press Start 2P';
+  src:     
+    url('fonts/arcade.ttf'),
+    format('ttf');
+}
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color:white;
+  font-family: 'Press Start 2P';
+   font-weight: normal;
+    font-style: normal;
 }
 
 a {
   color: #00B7FF;
+}
+
+.content
+{
+  margin-left:auto;
+  margin-right: auto;
+  width: 80%;
+  text-align:center;
+}
+
+.title
+{
+  
+  color:#00B7FF;
+}
+
+table
+{
+  width:100%;
+  
+}
+td{
+  padding-bottom:1em;
+}
+tr:nth-of-type(1)
+{
+  color:white;
+}
+tr:nth-of-type(2),
+tr:nth-of-type(3)
+{
+  color: #00B7FF;
+
+}
+tr:nth-of-type(4),
+tr:nth-of-type(5)
+{
+  color:yellow;
+
+}
+tr:nth-of-type(6),
+tr:nth-of-type(7)
+{
+  color:green;
+
+}
+
+tr:nth-of-type(8),
+tr:nth-of-type(9)
+{
+  color:palevioletred;
+
+}
+
+tr:nth-of-type(10),
+tr:nth-of-type(11)
+{
+  color:red;
+
 }

@@ -1,5 +1,15 @@
 extends layout
 
-block content
-  h1= title
-  p Welcome to #{title}
+block content  
+  div.content
+    p.title HIGH SCORES FOR AWESOME_GAME_TITLE_HERE
+    table
+      tr
+        td RANK
+        td NAME
+        td SCORE        
+      each item in scores
+        tr
+          td #{item.rank}        
+          td #{item.name}
+          td #{item.score}
