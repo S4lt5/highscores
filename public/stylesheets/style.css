@@ -1,15 +1,9 @@
-@font-face
-{
-  font-family: 'Press Start 2P';
-  src:     
-    url('fonts/arcade.ttf'),
-    format('ttf');
-}
+
 body {
+  font-family: 'Press Start 2P', cursive;
   padding: 50px;
   background-color: black;
   color:white;
-  font-family: 'Press Start 2P';
    font-weight: normal;
     font-style: normal;
 }
